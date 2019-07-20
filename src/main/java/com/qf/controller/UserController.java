@@ -10,6 +10,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public ModelAndView list(){
+        System.out.println("........");
         return new ModelAndView("test");
     }
 }
