@@ -11,6 +11,13 @@ public class UserController {
     @RequestMapping("/list")
     public ModelAndView list(){
         System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
+        System.out.println("........");
         return new ModelAndView("test");
     }
 }
